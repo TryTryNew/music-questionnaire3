@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* 網站配色與字體：在這裡改顏色，整個網站會一起換 */
+@theme {
+  --color-paper: #faf7f2;   /* 背景：像樂譜紙的米白 */
+  --color-card: #ffffff;
+  --color-ink: #1e2533;     /* 主要文字：深墨藍 */
+  --color-muted: #6b6f7a;   /* 次要文字 */
+  --color-line: #e4ded3;    /* 邊框 */
+  --color-accent: #8f3a3a;  /* 強調色：酒紅 */
+  --color-accent-soft: #f6ebe8;
+  --font-sans: "Noto Sans TC", system-ui, sans-serif;
+  --font-serif: "Noto Serif TC", serif;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
